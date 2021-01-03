@@ -1,0 +1,207 @@
+/* XL-Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+
+}
+
+
+/* LG-Normal desktop, Laptop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.logo img {
+	width: 100%;
+}
+.single-cta {
+	margin-left: 0;
+}
+.header-btn {
+	margin-right: 0;
+}
+.header-btn a {
+	padding: 18px 30px;
+}
+.cta-icon {
+	display: none;
+}
+.cta-text {
+	padding-left: 45px;
+}
+.main-menu ul li {
+	margin-right: 15px;
+}
+.main-menu ul li a {
+	font-size: 17px;
+}
+.slider-text h2 {
+	font-size: 60px;
+}
+.slider-text p {
+	font-size: 18px;
+}
+.slider-thumb {
+	margin-left: -317px;
+	margin-top: 95px;
+}
+.post-share a {
+    top: 90px;
+	right: 60px;
+	bottom: 15px;
+}
+
+
+
+.footer-subscribe-from button {
+	right: 10px;
+}
+
+}
+
+ 
+/* MD-Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo img {
+        width: 175%;
+    }
+    .header-cta {
+        margin-left: 50px;
+    }
+    .single-cta {
+        margin-left: 23px;
+    }
+    .cta-text {
+        padding-left: 0px;
+    }
+    .cta-icon {
+        display: none;
+    }
+    .main-menu ul li {
+        margin-right: 10px;
+    }
+    .slider-text h2 {
+        font-size: 70px;
+    }
+    .slider-thumb {
+        display: none;
+    }
+    .ticket-feature ul li {
+        margin-right: 20px;
+    }
+    .oneday-tour-price span {
+        display: none;
+    }
+    .newslatter-text {
+        margin-bottom: 20px;
+    }
+
+
+    .copyright-text p {
+        font-size: 15px;
+    }
+    .footer-bottom-menu ul li {
+        float: left;
+        margin-left: 35px;
+    }
+    .footer-area {
+        padding-bottom: 80px;
+    }
+    .footer-wedget {
+        margin-bottom: 45px;
+    }
+    .recent-post-body {
+        margin-top: -5px;
+    }
+    .footer-subscribe-from button {
+        position: absolute;
+        right: -12px;
+        top: 15px;
+    }
+
+}
+
+ 
+/* SM-small mobile :320px. */
+@media (max-width: 767px) {
+    .single-cta {
+        padding-right: 15px;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .header-btn {
+        margin-top: 25px;
+    }
+    .header-social-icon {
+        display: none;
+    }
+    .slider-text h2 {
+        font-size: 45px;
+    }
+    .slider-text h2.cd-headline span {
+        font-size: 45px;
+    }
+    .slick-slide img {
+        display: none;
+    }
+    .header-btn {
+        margin-top: 25px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .footer-area {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .footer-wedget {
+        margin-top: 50px;
+        padding-left: 20px;
+    }
+    .usefull-menu {
+        margin-left: 0;
+    }
+    .footer-bottom-menu ul li {
+        float: left;
+        margin-left: 0;
+    }
+    .footer-bottom-menu ul li a {
+        padding: 0 7px;
+    }
+    .mean-container a.meanmenu-reveal {
+        top: -368px;
+    }
+    .footer-subscribe-from input {
+        width: 100%;
+    }
+    .footer-subscribe-from button {
+        right: 15px;
+        top: 15px;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+    .mean-container a.meanmenu-reveal {
+        top: -300px;
+    }
+    .header-cta {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .mean-container a.meanmenu-reveal {
+        margin-top: 0px;
+    }
+    .tour-details-menu li {
+        margin-right: 20px;
+    }
+    .activities-post {
+        display: flex;
+        align-items: start;
+    }
+    .activiti-text {
+        margin-top: 0;
+    }
+    .oneday-tour-price {
+        margin-bottom: 30px;
+    }
+ 
+}
